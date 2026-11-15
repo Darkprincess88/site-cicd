@@ -15,6 +15,11 @@ jobs:
  steps:
  - name: Checkout repository
  uses: actions/checkout@v4
+ - name: Lint HTML
+        run: npx --yes htmlhint "**/*.html" --ignore "node_modules/**"
+
+      - name: Lint CSS
+        run: npx --yes stylelint "**/*.css" --ignore-pattern "node_modules/**"
  - name: Setup Pages
  uses: actions/configure-pages@v5
  - name: Upload artifact
