@@ -1,4 +1,5 @@
 [![pages-build-deployment](https://github.com/Darkprincess88/site-cicd/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Darkprincess88/site-cicd/actions/workflows/pages/pages-build-deployment)
+
 Статический веб-сайт, созданный в ходе выполнения лабораторной работы по настройке автоматического развёртывания (CI/CD) веб-проекта на хостинге с использованием GitHub Actions.
 
 Цель работы
